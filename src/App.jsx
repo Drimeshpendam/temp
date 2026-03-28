@@ -71,9 +71,9 @@ function CountdownPage({ onComplete }) {
       </h1>
 
       {/* DEV SKIP BUTTON */}
-      <div style={{ marginTop: "10px" }}>
+      {/* <div style={{ marginTop: "10px" }}>
         <Button onClick={onComplete}>Skip</Button>
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -88,7 +88,7 @@ function CakeCutting() {
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
 
-  const images = ["/media/cake.jpg", "/media/cake.jpg", "/media/cake.jpg"];
+  const images = ["cake.jpg", "cake.jpg", "cake.jpg"];
   const videos = ["/media/video1.mp4", "/media/video2.mp4", "/media/video3.mp4"];
   const questions = [
   {
