@@ -88,8 +88,8 @@ function CakeCutting() {
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
 
-  const images = ["/cake.jpg", "/cake.jpg", "/cake.jpg"];
-  const videos = ["/video1.mp4", "/video2.mp4", "/video3.mp4"];
+  const images = ["/media/cake.jpg", "/media/cake.jpg", "/media/cake.jpg"];
+  const videos = ["/media/video1.mp4", "/media/video2.mp4", "/media/video3.mp4"];
   const questions = [
   {
     q: "Where did we first meet?",
