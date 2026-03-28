@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Drimeshpendam.github.io/birthday_sample/",
+  "homepage": "https://Drimeshpendam.github.io/temp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
